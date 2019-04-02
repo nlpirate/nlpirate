@@ -1,3 +1,4 @@
 baseURL = "https://dreamy-noyce-bcc7b2.netlify.com/"
 languageCode = "en-us"
 title = "Nlpirate"
+theme = "beautifulhugo"
