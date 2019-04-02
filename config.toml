@@ -4,7 +4,10 @@ title = "Nlpirate"
 theme = "beautifulhugo"
 
 # syntax highlight
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
+#pygmentsStyle = "trac"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
+
+[Params]
+    useHLJS = true
