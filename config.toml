@@ -2,3 +2,9 @@ baseURL = "https://dreamy-noyce-bcc7b2.netlify.com/"
 languageCode = "en-us"
 title = "Nlpirate"
 theme = "beautifulhugo"
+
+# syntax highlight
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true

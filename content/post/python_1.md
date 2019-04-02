@@ -9,6 +9,7 @@ draft: false
 ## una (piccola piccola) introduzione
 
 il primo programma: `helloworld.py`
+
 Precisazione: nell'apprendimento di un qualsiasi linguaggio di programmazione, il primo programma è sempre quello che stampa a video la stringa "hello world!" (o "ciao mondo" nella lingua dove il si suona), come a sancire il nostro primo vagito di benvenuto al mondo in quella nuova lingua che - nel nostro caso - è il linguaggio python.
 
 
