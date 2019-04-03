@@ -13,4 +13,5 @@ theme = "beautifulhugo"
 
 [Params]
     useHLJS = true
-    logo = "img/avatar-icon.png"
+    subtitle = "Controcorso di Linguistica Computazionale"
+    logo = "img/king.png"
