@@ -45,9 +45,10 @@ pi = 3.14159
 
 
 ```python
-### ESERCIZIO 1
-### queste istrizuoni non producono nessun output
-### scrivere il programma es_1.py che stampa in sequenza le variabili elencate
+ESERCIZIO 1
+queste istruzioni non producono nessun output
+scrivere un programma che stampa in sequenza
+le variabili elencate
 ```
 
 Si può subito notare che le stringhe, come detto sopra, vanno sempre racchiuse tra apici, mentre i numeri no. È importante qui introdurre il concetto di **tipo**. Python semplifica molto la vita del programmatore dal momento che - contrariamente alla maggior parte dei linguaggi - non bisogna specificare il tipo di variabile che stiamo creando. I tipi che ci interessano al momento sono:
@@ -117,7 +118,8 @@ print (ris)
 ```python
 messaggio_auguri = 'tanti auguri'   #ok
 var11201231891   = 'tanti auguri'   #bleah
-# per il compilatore non c'è differenza, ma per gli umani si
+# per il compilatore non c'è differenza,
+# ma per gli umani si
 ```
 
 I nomi assegnati alle variabili devono iniziare per lettera (convenzionalmente minuscola), **non possono iniziare con un carattere numerico e non possono contenere spazi bianchi**, altrimenti il compilatore restituirà un messaggio di errore. Se i nomi sono composti da più parole si usa il simbolo underscore o la notazione a cammello LINK:
@@ -196,17 +198,21 @@ if 'hobbit' in 'in un buco sotto terra viveva uno hobbit':
 
 
 
-```python
-### ESERCIZIO 1.1
-### scrivere il programma es_1.1.py che verifica se una stringa è contenuta in un'altra
-### e restituisce ok se la condizione viene verificata
+```xml
+ESERCIZIO 1.1
+scrivere un comando che verifica se una stringa
+è contenuta in un'altra e restituisce ok se la condizione viene verificata
 
-### ESERCIZIO 1.2
-### scrivere il programma es_1.2.py che modifica il precedente usando delle variabili per le stringhe
+ESERCIZIO 1.2
+scrivere un programma che modifica il precedente
+usando delle variabili per le stringhe
 
-### ESERCIZIO 1.3
-### scrivere il programma es_1.3.py che modifica il precedente stampando:
-### "la variabile nomevariabile è contenuta nella stringa nomestringa" usando l'operatore di concatenazione
+ESERCIZIO 1.3
+scrivere un programma che modifica il precedente
+e stampa:
+"la variabile <nomevariabile> è contenuta nella
+stringa <nomestringa> usando l'operatore
+di concatenazione
 ```
 
 Cosa succede se la condizione non è vera?
@@ -236,22 +242,24 @@ else:
 
 
 ```python
-### ESERCIZIO 1.4
-### dato il seguente programma
+ESERCIZIO 1.4
+dato il seguente programma
 
 if 'termostato' in 'la casa spiccava il volo sotto un turbinio scosceso di verdi pascoli':
     print True
 
-### scrivere es_1.4.py che modifica il programma specificando un'istruzione condizionale
+modificare il programma specificando
+un'istruzione condizionale
 
-### ESERCIZIO 1.5
-### scrivere es_1.5.py che modifica es_1.4.py usando delle variabili
+ESERCIZIO 1.5
+modificare il programma precedente
+usando delle variabili
 
-### ESERCIZIO 1.6
-### scrivere il programma es_1.6.py che:
-### - controlla se la lettera 'b' è presente nella stringa 'cane'
-### - se la condizione si verifica stampi il messaggio 'ok'
-### - se la condizione non si verifica stampi 'la lettera b non è contenuta nella parola cane'
+ESERCIZIO 1.6
+scrivere un programma che:
+- controlla se la lettera 'b' è presente nella stringa 'cane'
+- se la condizione si verifica stampi il messaggio 'ok'
+- se la condizione non si verifica stampi 'la lettera b non è contenuta nella parola cane'
 ```
 
 ## Input da tastiera
@@ -278,7 +286,7 @@ print ('ciao '+nome)
     scrivi il tuo nome: pippo
     ciao pippo
 
-###
+
 
 ### `prompt` e ` if `
 
@@ -298,15 +306,14 @@ else:
 
 
 
-```python
-### ESERCIZIO 1.7
-### scrivere il programma es_1.7.py che modifica il codice in modo che stampi
-### - 'la lettera <lettera inserita dall'utente> è contenuta nella parola casa se la condzione è vera'
-### - 'non dire gatto se non lo hai nel sacco' se la condizione è falsa
+```xml
+ESERCIZIO 1.7
+modificare il codice precedente in modo che stampi
+- 'la lettera <lettera inserita dall'utente> è contenuta nella parola casa se la condzione è vera'
+- 'non dire gatto se non lo hai nel sacco' se la condizione è falsa
 
-### ESERCIZIO 1.8
-### scrivere il programma es_1.8.py  che controlli se una stringa inserita dall'utente è contenuta
-### in un'altra stringa inserita dall'utente e abbia un'istruzione alternativa in caso la condizione non sia vera
+ESERCIZIO 1.8
+scrivere un programma che controlli se una stringa inserita dall'utente è contenuta in un'altra stringa inserita dall'utente e abbia un'istruzione alternativa in caso la condizione non sia vera
 ```
 
 ## Comandi iterativi: il ciclo `for`
