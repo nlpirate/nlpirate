@@ -9,7 +9,8 @@ theme = "beautifulhugo"
 #pygmentsCodeFences = true
 #pygmentsCodefencesGuessSyntax = true
 
-logo = "img/avatar-icon.png"
+
 
 [Params]
     useHLJS = true
+    logo = "img/avatar-icon.png"

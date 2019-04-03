@@ -23,11 +23,10 @@ print('Hello World!')
 il comando `print()` stampa (a video) la stringa `Hello World!` che - in quanto stringa di testo - è racchiusa tra apici singoli o doppi. Tutto ciò che si vuole stampare deve essere racchiuso tra parentesi tonde.
 
 ### Istruzioni
-1. aprire IDLE
-2. creare un nuovo file
+1. aprire Jupyter Notebook
+2. creare un nuovo notebook python 3
 3. scrivere l'istruzione
-4. salvare il file come `hello.py`
-5. eseguire il programma con F5
+4. eseguire il programma (`run` o `shift + invio`)
 
 ### Come funziona il programma?
 l'interprete python "legge" riga per riga le istruzioni del codice sorgente e le "traduce" producendo un output. In questo caso l'unico comando che diamo è `print  ('stringa di testo')`
