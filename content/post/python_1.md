@@ -18,8 +18,11 @@ Precisazione: nell'apprendimento di un qualsiasi linguaggio di programmazione, i
 
 print('Hello World!')
 ```
+```bash
+>Hello World
+```
 
-    Hello World!
+
 il comando `print()` stampa (a video) la stringa `Hello World!` che - in quanto stringa di testo - è racchiusa tra apici singoli o doppi. Tutto ciò che si vuole stampare deve essere racchiuso tra parentesi tonde.
 
 ### Istruzioni
