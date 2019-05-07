@@ -1,6 +1,6 @@
 ---
 title: "Impariamo a contare"
-date: 2019-05-06T18:35:30+02:00
+date: 2019-05-05T18:35:30+02:00
 draft: false
 ---
 
