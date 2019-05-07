@@ -226,7 +226,7 @@ legge di potenza, con una distribuzione cosiddetta "a coda lunga".
 fd.plot( 30 )
 ```
 
-![](images/2019/05/distfreq-base.png)
+![distfreq-base](images/2019/05/distfreq-base.png)
 
 C'è un altissimo numero di parole con frequenze estremamente basse e un insieme di parole molto molto ridotto che occorrono un numero altissimo di volte.
 Le parole con frequenza più altra sono quelle dette semanticamente vuote (preposizioni, articili...), le parole meno frequenti saranno invece verbi e nomi.
@@ -262,7 +262,7 @@ unstopped_words = [w for w in miotesto if w not in sw]
 fd_unstopped_words = nltk.FreqDist(unstopped_words)
 fd_unstopped_words.plot( 30 )
 ```
-![](images/2019/05/dis.png)
+![dis](images/2019/05/dis.png)
 
 L'output è lievemente migliorato ma contiene ancora molto rumore, come i segni di punteggiatura, eviidentemente non presenti nella lista stopwords di nltk. Per migliorare il risultato si può utilizzare un altro metodo, basato sulla lunghezza della parole. Si stabilisce una
 soglia e si specifica che la distribuzione di frequenza contemplerà soltanto le parole più lunghe di n caratteri, secondo il criterio che le parole molto corte sono molto probabilmente articoli, segni di punteggiatura o preposizioni.
@@ -273,7 +273,7 @@ fd_long_words = nltk.FreqDist(long_words)
 fd_long_words.plot( 30 )
 ```
 
-![](images/2019/05/ds.png)
+![ds](images/2019/05/ds.png)
 
 in questo caso con una soglia pari a 7 notiamo un sensibile miglioramento. Per avere un output ancora più raffinato si può combinare questo filtro basato sulla lunghezza con uno basato sulla frequenza. Ovvero includerò nella distribuzione soltanto le parole lunghe almeno _n_ caratteri e che occorrono almeno _x_ volte nel mio testo.
 
@@ -283,7 +283,7 @@ fd_filtered_words = nltk.FreqDist(filtered_words)
 fd_filtered_words.plot( 30 )
 ```
 
-![](images/2019/05/last.png)
+![last](images/2019/05/last.png)
 
 Valutando l'output si nota come con pochi semplici passaggi si riesce a passare da un risultato quasi inutilizzabile a un output molto informativo per quanto riguarda il contenuto del testo.
 Infatti se si va a stampare la lista di frequenza si nota una netta differenza tra il primo output.
