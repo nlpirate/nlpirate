@@ -1,11 +1,12 @@
 ---
-title: "Impariamo a contare"
-date: 2019-05-06T15:35:30+02:00
+title: "NLTK"
+date: 2019-05-07T12:10:30+02:00
 draft: false
 ---
 
 
-# Python perlinguisti parte 3: NLTK
+# Python perlinguisti parte 3
+## NLTK
 
 Nltk (acronimo per **Natural Language Toolkit** ) è una libreria python che fornisce moltissimi
 stumenti per l'analisi e la manipolazione di dati testuali.

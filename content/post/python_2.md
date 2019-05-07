@@ -5,7 +5,8 @@ draft: false
 ---
 
 
-# Python perlinguisti parte 2: impariamo a contare
+# Python perlinguisti parte 2
+## impariamo a contare
 
 Il ciclo `for` legge la stringa esattamente come la lista dell'esempio precedente, scorrendo tutti
 gli elementi, in questo caso i caratteri (compreso lo spazio).
