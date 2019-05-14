@@ -22,7 +22,7 @@ import urllib.request
 
 ```
 
-Il secondo passo è quello di trovare un file su cui lavorare. Per comodità useremo i file txt in utf-8 disponibili gratuitamente sulla pagina del [Progetto Gutemberg](https://www.gutenberg.org/browse/languages/it).
+Il secondo passo è quello di trovare un file su cui lavorare. Per comodità useremo i file txt in utf-8 disponibili gratuitamente sulla pagina del [Progetto Gutenberg](https://www.gutenberg.org/browse/languages/it).
 
 il file in txt scelto verrà assegnato a una variabile (in questo caso chiamata `url`) ma si può scrivere direttamente omettendo la variabile oppure utilizzare `input` e inserire il link una volta lanciato lo script.
 
