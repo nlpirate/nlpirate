@@ -1,9 +1,13 @@
 ---
 title: "Testi dal web"
-date: 2019-05-14T15:35:30+02:00
+date: 2019-05-14T12:35:30+02:00
 draft: false
 ---
 
+<!--
+una delle fonti per l'aggiornamento 2019
+https://likegeeks.com/nlp-tutorial-using-python-nltk/
+-->
 
 ## Testi dal web
 
